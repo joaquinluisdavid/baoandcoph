@@ -379,8 +379,13 @@ h2 em {
 .menu-section,
 .gallery-section,
 .social-section {
-  padding-top: clamp(100px, 13vw, 180px);
-  padding-bottom: clamp(100px, 13vw, 180px);
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.gallery-section,
+.social-section {
+  border-top: 1px solid var(--line);
 }
 
 .section-intro {
@@ -452,7 +457,7 @@ h2 em {
 
 .menu-item__number {
   position: absolute;
-  top: 18px;
+  top: 0;
   left: 50%;
   display: grid;
   place-items: center;
@@ -744,7 +749,7 @@ h2 em {
   gap: clamp(42px, 10vw, 150px);
   align-items: center;
   padding-top: 80px;
-  padding-bottom: clamp(100px, 14vw, 190px);
+  padding-bottom: 112px;
   border-top: 1px solid var(--line);
 }
 
@@ -1326,6 +1331,13 @@ h2 em {
     margin-bottom: 44px;
   }
 
+  .menu-section,
+  .gallery-section,
+  .social-section {
+    padding-top: 56px;
+    padding-bottom: 48px;
+  }
+
   .reviews-section {
     gap: 44px;
   }
@@ -1336,6 +1348,22 @@ h2 em {
 
   .reviews-carousel {
     min-height: 430px;
+  }
+
+  .review {
+    padding-bottom: 24px;
+  }
+
+  .reviews-carousel__controls {
+    position: static;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .reviews-carousel__indicators {
+    position: static;
+    justify-content: center;
+    padding-bottom: 24px;
   }
 
   .section-intro h2,
@@ -1350,19 +1378,25 @@ h2 em {
   .menu-grid {
     display: flex;
     flex-direction: column;
-    gap: 52px;
+    gap: 36px;
   }
 
   .menu-item,
   .menu-item:nth-child(1),
   .menu-item:nth-child(2),
   .menu-item:nth-child(3) {
-    padding-bottom: 0;
+    padding-bottom: 36px;
     padding-top: 0;
+    border-bottom: 1px solid var(--line);
   }
 
-  .menu-item__image {
-    aspect-ratio: 1.12;
+  .menu-item:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .menu-item__image-wrap {
+    border-bottom: 0;
   }
 
   .menu-item__copy p {
@@ -1394,7 +1428,8 @@ h2 em {
 
   .story-section {
     gap: 44px;
-    padding-top: 58px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
 
   .story-section__visual img {
@@ -1491,7 +1526,7 @@ h2 em {
 
   .delivery-section {
     gap: 44px;
-    padding-top: 72px;
+    padding-top: 36px;
     padding-bottom: 72px;
   }
 
@@ -1501,6 +1536,7 @@ h2 em {
 
   .social-section {
     gap: 48px;
+    padding-bottom: 32px;
   }
 
   .social-link {
@@ -1509,7 +1545,8 @@ h2 em {
 
   .contact-banner {
     gap: 40px;
-    padding-top: 62px;
+    padding-top: 32px;
+    border-top: 0;
   }
 
   .contact-banner h2 {

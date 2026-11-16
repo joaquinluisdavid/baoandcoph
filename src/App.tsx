@@ -94,7 +94,9 @@ function handleSmoothAnchorClick(event: React.MouseEvent<HTMLAnchorElement>) {
   }
 
   event.preventDefault()
-  const targetY = Math.max(0, target.getBoundingClientRect().top + window.scrollY)
+  const header = document.querySelector<HTMLElement>('.site-header')
+  const headerOffset = header?.getBoundingClientRect().height ?? 0
+  const targetY = Math.max(0, target.getBoundingClientRect().top + window.scrollY - headerOffset)
   animateScrollTo(targetY)
   window.history.replaceState(null, '', href)
 }

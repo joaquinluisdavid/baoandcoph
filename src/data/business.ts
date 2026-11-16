@@ -147,4 +147,16 @@ export const galleryItems = [
     type: 'video',
     className: 'gallery-item--wide',
   },
+  {
+    src: '/assets/videos/customers.mp4',
+    alt: 'Customers enjoying Bao & Co. at the market',
+    type: 'video',
+    className: 'gallery-item--wide',
+  },
+  {
+    src: '/assets/videos/bao&co.mp4',
+    alt: 'Bao & Co. serving freshly steamed baos',
+    type: 'video',
+    className: 'gallery-item--wide',
+  },
 ] as const

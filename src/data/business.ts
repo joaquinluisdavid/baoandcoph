@@ -72,7 +72,7 @@ type Review = {
 export const reviews: Review[] = [
   {
     source: 'Google',
-    author: 'Catherine Vitug',
+    author: 'Catherine V.',
     quote:
       'Kind owners, good food, and great service! Budget-friendly and definitely worth the money. I was never a fan of baos until I tried theirs! Will definitely order again!',
     image: '/assets/reviews/customer-bao-box.jpg',
@@ -80,7 +80,7 @@ export const reviews: Review[] = [
   },
   {
     source: 'Google',
-    author: 'Estela B. Moral',
+    author: 'Estela M.',
     quote:
       'The bao is soft and really rich in flavor. Even though the food came home cold, it was still delicious. The seller was also approachable and friendly.',
     image: '/assets/reviews/customer-bao-delivery.jpg',
@@ -88,7 +88,7 @@ export const reviews: Review[] = [
   },
   {
     source: 'Google',
-    author: 'PG Garcia',
+    author: 'PG G.',
     quote:
       'This is our go-to food stall at Kulitan Flea Market in front of Holy Rosary Parish Church, Angeles City. Their cuapao is very delicious! You will definitely come back.',
     image: '/assets/reviews/customer-bao-spread.jpg',
@@ -96,12 +96,12 @@ export const reviews: Review[] = [
   },
   {
     source: 'Google',
-    author: 'Anjo Paul Alcañabo',
+    author: 'Anjo A.',
     quote: 'GOOD FOOD WORTH IT TO BUY ❤️',
   },
   {
     source: 'Google',
-    author: 'Gabrielle Lopez',
+    author: 'Gabrielle L.',
     quote: 'This is so delicious!!! 💗💗💗 this is my favorite, super duper delicious!',
   },
   {
@@ -112,12 +112,12 @@ export const reviews: Review[] = [
   },
   {
     source: 'Facebook',
-    author: 'Ejhay Eugenio',
+    author: 'Ejhay E.',
     quote: 'Sobrang sarap!',
   },
   {
     source: 'Facebook',
-    author: 'Pau Llaneta',
+    author: 'Pau L.',
     quote: 'Super sarap! Favorite namin yung chicken liver.',
   },
 ] as const

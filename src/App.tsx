@@ -696,11 +696,6 @@ function App() {
             <img src="/assets/branding/bao-and-co-logo.jpg" alt="Bao & Co." />
           </a>
           <p>Freshly steamed baos and bold modern flavors in Angeles City.</p>
-          <div className="site-footer__links">
-            <a href="#menu" onClick={handleSmoothAnchorClick}>Menu</a>
-            <a href="#story" onClick={handleSmoothAnchorClick}>Our story</a>
-            <ExternalLink href={business.social.instagram}>Instagram</ExternalLink>
-          </div>
         </div>
         <div className="site-footer__bottom">
           <span>© {currentYear} Bao & Co.</span>
